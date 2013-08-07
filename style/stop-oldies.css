@@ -1,0 +1,88 @@
+/* CSS Reset */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input,hr {margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th {font-size:1em; font-weight:normal; font-style:normal;}
+ul,ol {list-style:none;}
+fieldset,img,hr {border:none;}
+caption,th {text-align:left;}
+table {border-collapse:collapse; border-spacing:0;}
+td {vertical-align:top;}
+
+.clear:after {content: ""; display: block; clear: both; outline: none;}
+.clear {zoom: 1;} 
+.clear a {outline:none;}
+
+html, body
+{
+    height: 100%;
+    margin: 0;
+    min-width: 960px;
+    padding: 0;
+}
+
+body
+{
+    background-color: #fff;
+    background-image: url('images/background.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Construction */
+#wrap
+{
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#container
+{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+}
+
+#holder
+{
+    background-image: url('images/logo_main.gif');
+    background-position: center 40px;
+    background-repeat:no-repeat;
+    display: block;
+    height: 276px;
+    margin-top: 0px;
+    width: 960px;
+}
+
+#entry
+{
+    color: #000000;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 180px;
+    text-align: center;
+}
+
+#entry h1
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+#icons
+{
+    background-image: url('images/separator.png');
+    background-position: top center;
+    background-repeat:no-repeat;
+    padding-top: 40px;
+    text-align: center;
+}
+
+div.logo
+{
+    display: inline;
+    margin: 0 5px;
+}
